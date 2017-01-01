@@ -2,7 +2,7 @@ package com.gk.selenium.config;
  
 import org.openqa.selenium.WebDriver;
  
-public class LocalDriverManager {
+public class DriverManager {
     private static ThreadLocal<WebDriver> webDriver = new ThreadLocal<WebDriver>();
  
     public static WebDriver getDriver() {

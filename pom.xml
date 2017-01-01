@@ -75,9 +75,9 @@
                               <webdriver.gecko.driver>${webdriver.gecko.driver}</webdriver.gecko.driver>
                               <webdriver.edge.driver>${webdriver.edge.driver}</webdriver.edge.driver>
 	                      </systemPropertyVariables>
-			         	  <suiteXmlFiles>
+			         	 <!--  <suiteXmlFiles>
 			          		  <suiteXmlFile>smokeTest.xml</suiteXmlFile>
-			              </suiteXmlFiles>
+			              </suiteXmlFiles> -->
 			        </configuration>
 			      </plugin>
 			</plugins>

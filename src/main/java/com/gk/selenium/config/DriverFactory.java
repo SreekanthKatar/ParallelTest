@@ -20,7 +20,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.gk.selenium.config.DriverType;
  
-class LocalDriverFactory {
+class DriverFactory {
 	 private WebDriver webdriver;
 	    private DriverType selectedDriverType;
 
