@@ -9,7 +9,7 @@ import com.gk.selenium.page.objects.SignUpPage;
 
 public class SignUpFormTest extends TestBase {
 
-	@Test
+	@Test(groups={"regression"})
 	public void signUp(){
 		
 		launchWebSite();
@@ -25,7 +25,7 @@ public class SignUpFormTest extends TestBase {
 		Assert.assertEquals("Thank you!", receiptPage.confirmationHeader());
 	}	
 	
-	@Test
+	@Test(groups={"smoke"})
 	public void signUp1(){
 		launchWebSite();
 		SignUpPage signUpPage = new SignUpPage(getDriver());
