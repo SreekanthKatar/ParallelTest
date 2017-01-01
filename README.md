@@ -2,9 +2,11 @@
 # SeleniumTestNGParallelPOP
 
 ### What should I know?
-To run a sample test - Navigate to SeleniumTestNGParallelPOP and run the below command. The sample test will executed in firefix by default
+To run a sample test - Navigate to SeleniumTestNGParallelPOP and run the below command. The sample test will executed in firefox by default
 
-        mvn clean test -PsmokeTest
+        mvn clean test
+        mvn clean test -Dgroups=regression,smoke
+        mvn clean test -Dtest=classname
         
 To exclude running sample tests - Navigate to SeleniumTestNGParallelPOP and run the below command
         
