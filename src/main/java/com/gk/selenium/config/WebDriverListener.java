@@ -7,7 +7,6 @@ import org.testng.ITestResult;
  
 public class WebDriverListener implements IInvokedMethodListener {
  
-    @Override
     public void beforeInvocation(IInvokedMethod method, ITestResult testResult) {
         if (method.isTestMethod()) {
             WebDriver driver = null;
@@ -21,7 +20,6 @@ public class WebDriverListener implements IInvokedMethodListener {
         }
     }
  
-    @Override
     public void afterInvocation(IInvokedMethod method, ITestResult testResult) {
         if (method.isTestMethod()) {
             WebDriver driver = DriverManager.getDriver();
